@@ -1,0 +1,23 @@
+{
+  "name": "autenticaonodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "mongodb": "^2.2.33",
+    "mongoose": "^6.2.7"
+  }
+}
