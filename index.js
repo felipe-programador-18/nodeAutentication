@@ -30,9 +30,9 @@ api.use(express.static(path.join( __dirname ,'views')))
 // connection about body parser
 api.use(bodyParser.urlencoded({extended:true}))
 
-api.get('/', (req, res) => {
-    res.send('allows learnig moreevry single day')
-})
+
+
+
 
 api.post('/login', async(req,res) => {
     const user = await UserModel.findOne({username: req.body.username}) 
